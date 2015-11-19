@@ -6,7 +6,7 @@ int main(int argc, const char **argv){
     char buffer[5];
 
     printf("say something: ");
-    scanf(" %s", buffer);
+    fgets(buffer, 4, stdin);
 
     return EXIT_SUCCESS;
 }
